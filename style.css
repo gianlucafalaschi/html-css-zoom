@@ -100,7 +100,7 @@ footer .footer-container{
     border: 1px dashed black;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
 }
 .footer-container .right{
     width: 20%;
@@ -136,6 +136,11 @@ footer .footer-container{
 .col-white{
     color: white;
 }
+
+.col-green{
+    color:#4BC800 ;
+}
+
 .push {
     text-align:center;
 }

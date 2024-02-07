@@ -43,7 +43,8 @@ header{
 /* MAIN */
 
 main {
-    overflow-y:auto ;
+    overflow-y: auto;
+    overflow-x:auto;
 }
 
 .main-box{
@@ -52,7 +53,7 @@ main {
     padding: 50px 90px 30px 90px;
     display: flex;
     flex-wrap: wrap;
-}
+ }
 
 .column{
     display: flex;

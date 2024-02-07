@@ -49,6 +49,26 @@ header{
     flex-wrap: wrap;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height:100%;
+}
+
+.photo-box{
+    width: 255px;
+    height: 150px;
+    background-color: blue;
+    padding: 8px 3px;
+    border: 1px dashed black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
 
 /* FOOTER */
 footer .footer-container{
@@ -66,3 +86,4 @@ footer .footer-container{
     border: none;
     padding: 5px;
 }
+

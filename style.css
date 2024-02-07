@@ -96,10 +96,18 @@ footer .footer-container{
     justify-content: space-around;
 }
 .footer-container .center{
-
+    width: 80%;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 .footer-container .right{
-
+    width: 20%;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 /* BUTTONS */
@@ -138,4 +146,12 @@ footer .footer-container{
 
 .icon{
     font-size: 25px;
+}
+
+.end{
+    color:#D52207;
+    font-size: 12px;
+    background-color:#4A4A4A;
+    padding: 32px 35px;
+    
 }

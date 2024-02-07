@@ -98,9 +98,10 @@ footer .footer-container{
     color: white;
     font-size: 12px;
     background-color:#4A4A4A;
+    opacity: 0.5;
     padding:5px ;
     position: absolute;
     z-index: 10;
     bottom: 4px;
-    left: 4px;
+    left: 3px;
 }

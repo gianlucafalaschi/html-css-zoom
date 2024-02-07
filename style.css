@@ -41,6 +41,11 @@ header{
 }
 
 /* MAIN */
+
+main {
+    overflow-y:auto ;
+}
+
 .main-box{
     width: 100%;
     height: calc(100vh - 110px);
@@ -86,4 +91,3 @@ footer .footer-container{
     border: none;
     padding: 5px;
 }
-

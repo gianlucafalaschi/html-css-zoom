@@ -18,7 +18,7 @@ header .menu-top{
 
 /* GENERAL */
 .container {
-    background-color: #948e8e;
+    background-color: #000000;
     height: 100vh;
     width: 100%;
 }
@@ -28,7 +28,7 @@ header .menu-top{
 header{
     width: 100%;
     height:30px ;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
 }
 
@@ -67,10 +67,10 @@ main {
 .photo-box{
     width: 240px;
     height: 150px;
-    background-color: blue;
+    background-color: transparent;
     padding: 8px 3px;
-    border: 1px dashed black;
-    position: relative;
+/*     border: 1px dashed black;
+ */    position: relative;
 }
 
 img {
@@ -82,32 +82,33 @@ img {
 footer .footer-container{
     width: 100%;
     height: 80px;
-    background-color: yellow;
+    background-color: #222222;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .footer-container .left{
-    width: 20%;
-    border: 1px dashed black;
-    display: flex;
+    width: 15%;
+/*     border: 1px dashed black;
+ */    display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .footer-container .center{
     width: 80%;
-    border: 1px dashed black;
-    display: flex;
+/*     border: 1px dashed black;
+ */    display: flex;
     align-items: center;
     justify-content:space-around;
 }
 .footer-container .right{
-    width: 20%;
-    border: 1px dashed black;
-    display: flex;
+    width: 15%;
+/*     border: 1px dashed black;
+ */    display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: #4A4A4A;
 }
 
 /* BUTTONS */
@@ -157,6 +158,5 @@ footer .footer-container{
     color:#D52207;
     font-size: 12px;
     background-color:#4A4A4A;
-    padding: 32px 35px;
-    
+    height: 30px;
 }

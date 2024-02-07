@@ -108,7 +108,6 @@ footer .footer-container{
  */    display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #4A4A4A;
 }
 
 /* BUTTONS */
@@ -158,5 +157,7 @@ footer .footer-container{
     color:#D52207;
     font-size: 12px;
     background-color:#4A4A4A;
-    height: 30px;
+    padding: 30px 30px;
+    text-align: center;
+    
 }

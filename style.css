@@ -93,14 +93,14 @@ footer .footer-container{
 /*     border: 1px dashed black;
  */    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .footer-container .center{
     width: 80%;
 /*     border: 1px dashed black;
  */    display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:center;
 }
 .footer-container .right{
     width: 15%;
@@ -143,6 +143,7 @@ footer .footer-container{
 
 .push {
     text-align:center;
+    margin: 0 10px;
 }
 
 .description, .arrow{

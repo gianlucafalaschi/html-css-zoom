@@ -60,8 +60,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex-grow: 1;
-}
+ }
 
 
 .photo-box{
